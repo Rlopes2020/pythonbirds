@@ -1,3 +1,6 @@
+
+
+
 """
 Você deve criar uma classe carro que vai possuir dois atributos compostos por outras duas classes:
 
@@ -93,3 +96,7 @@ A direção terá a responsabilidade de controlar a direção. Ela oferece os se
 
 
 """
+
+class Motor:
+    def __init__(self):
+        self.velocidade = 0
